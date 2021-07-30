@@ -10,5 +10,7 @@ switch(operatorCode){
 	case "-":
     	c=a-b;
     	break;
+        default:
+        c=null;
 }
-output(c);
+console.log(c);
