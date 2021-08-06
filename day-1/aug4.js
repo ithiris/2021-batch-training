@@ -1,3 +1,4 @@
+function number(){
 for (let i = 0; i < 6; i++) {
     if(i==2) {
       console.log(i+' is favourite number');
@@ -6,3 +7,5 @@ for (let i = 0; i < 6; i++) {
         } else
     console.log('Number ' +i);
   }
+}
+number(21);
