@@ -8,4 +8,8 @@ for (let i = 0; i < 6; i++) {
     console.log('Number ' +i);
   }
 }
-number(21);
+number(); 
+let final = number.filter(function(value){
+  return value % 2;
+});
+console.log(final);
