@@ -1,5 +1,5 @@
      function remove_first_occurrence(str,str2) {
-        var resstr = "";
+                 var resstr = "";
         var newString = str.split(' ')
         for (let i=0; i< newString.length; i++) {  
             const element = newString[i];
