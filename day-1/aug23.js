@@ -18,14 +18,10 @@ console.log(getMax(numbers));
 
 var numbers = [2,8,9,11,39,20];
 function getMin(array){
-  
     var minvalue = array[0];
-    
-    for(let i = 0; i > array.length; i--) {
-    
+    for(let i = 0; i< array.length; i++) {
         if(array[i] < minvalue) {
         minvalue = array[i];
-        
 }
     }
     return minvalue;

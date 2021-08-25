@@ -10,11 +10,11 @@
   const valueToFill = 'a';
  
  const fill = (arraySize, value) => {
-    const myArray = [];
-    for (let i = 1; i <= arraySize; i++) {
+    const myArray = " ";
+    for (let i = 0; i <= arraySize; i++) {
       myArray.push(value);
       console.log(myArray);
     }
   } 
-  fill(5, 'a'); // ['a', 'a', 'a']
-  fill(4, 'b');
+   // ['a', 'a', 'a']
+  fill(4, 'a');
