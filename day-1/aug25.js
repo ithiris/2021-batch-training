@@ -15,26 +15,20 @@ var library = [
         readingStatus: false
     }];
 
-    function display(library, bookName) {
-
-                var statusOfBook = "";
+    function display(library, title) {
+           
         for(var i=0; i<library.length; i++) {
-               library.length[i] = bookName;   
-                          statusOfBook += library[i];
-              if(library[i].readingStatus) {
+            if(library[i].title == title)   
+                {
+              if(library[i].readingStatus) 
                         console.log("this book is already read by : " + library[i].author);
-                                       
-                    }
                  else
                         console.log("you still need to read the book : " + library[i].author);                   
 
-                
-            }
-    
-        
-    return statusOfBook ;
+                }
+        }
     }
-display(library, 'Mockingjay: The Final Book of The Hunger Games');
+ display(library, 'Mockingjay: The Final Book of The Hunger Games');
 
 
 
