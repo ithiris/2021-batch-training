@@ -6,7 +6,8 @@ var obj5={name:"fathima",age:25,gender:"female"}
 var obj6={name:"ladha",age:30,gender:"female"}
 var obj7={name:"salma",age:30,gender:"female" }
 var person =[obj1,obj2,obj3,obj4,obj5,obj6,obj7]
-function checkedBygender(array, a, b) {
+function checkedBygender(array, a, b) 
+{
              var male=[];
              var result ={};
              for (let i=0; i<array.length; i++) {
@@ -17,8 +18,5 @@ function checkedBygender(array, a, b) {
             }
             result["male"] = male;
             return result;
-               // return male;
-            
-          
-        }
+   }
          console.log(checkedBygender(person,"gender","male"));

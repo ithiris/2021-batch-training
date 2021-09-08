@@ -13,4 +13,5 @@ function  printLargestEvenNumber(array)
 
 return largestEvenNum;
 }
-printLargestEvenNumber(9,2,4,6,23,53,10,33,22);
+var result = printLargestEvenNumber(9,2,4,6,23,53,10,33,22);
+console.log(result)
