@@ -1,9 +1,8 @@
 var person = ['Rasikhan', 'valiyullah', 'refaideen'];
 function firstLetterOfName(array) {
     var name = [];
-for(let i=0; i < array.length; i++){
-    name.push(array[i][0]);
-
+    for(let key in array){
+        name.push(array[key][0]);
 }
 return name;
 }

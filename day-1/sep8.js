@@ -1,11 +1,12 @@
 function removeArrayElement(arr, num){
     var output = [];
-for(let i=0; i<arr.length; i++){
-  if(arr = arr - (arr[i] == num)) {
-   value += arr;
-   output.push(value);
+for(let key in arr){
+    if(arr[key] !== num) {
+        value = arr[key] ;
+        output.push(value);
+    }
 
-}
+
 }
 
 return output;
