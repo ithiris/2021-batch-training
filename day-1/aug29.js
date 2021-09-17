@@ -25,12 +25,12 @@ function printMaleObj(input, propKey, propValue) {
     var maleObj = {};
     for (var i = 0; i < input.length; i++) {
         var obj = input[i];  // return obj
-        if (obj[propKey] == propValue) { // finding male 
+        if (obj[propKey] == propValue) { 
             genderArr.push(obj)
         }
 
     }
-    maleObj['male'] = genderArr;           // genderArr assigned to obj
-    return maleObj; //output
+    maleObj['male'] = genderArr;          
+    return maleObj;
 }
-console.log(printMaleObj(persons, "gender", "male")) //input
+console.log(printMaleObj(persons, "gender", "male")) 

@@ -1,10 +1,12 @@
-var person = ['Rasikhan', 'valiyullah', 'refaideen'];
-function firstLetterOfName(array) {
-    var name = [];
-    for(let key in array){
-        name.push(array[key][0]);
+
+function printFirstLetterOfName(userNames) {
+    const firstLetters = userNames.map(function(userName) {
+        const firstChar = userName.charAt(0);
+    return firstChar;
+    });
+
+return firstLetters;
 }
-return name;
-}
- let result = firstLetterOfName(person);
+const userNames = ['Rasikhan', 'valiyullah', 'refaideen'];
+ let result = printFirstLetterOfName(userNames);
  console.log(result);
