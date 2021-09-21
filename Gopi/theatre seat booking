@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Theatre seat reservation</title>
+    
+</head>
+<body>
+    <div class="movie-container">
+    <label>Select a movie: </label>
+    <select id="movie">
+        <option value="15"> Seven ($15)</option>
+        <option value="30"> Detriot ($30)</option>
+        <option value="10"> In to the Wild ($10)</option>
+        <option value="20"> Doctor Sleep ($20)</option>   
+    </select>
+</div>
+
+<ul class="show case"...>
+    <li><div class="seat"></div><label>Available</label></li>
+    <li><div class="seat-selected"></div><label>selected</label></li>
+    <li><div class="seat-occupied"></div><label>occupied</label></li>
+</ul>
+<div class="seat-container">
+    <div class="screen"></div>
+    <div class="row">
+        <div class="seat"></div>     
+        <div class="seat"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat"></div>
+        <div class="seat-occupied"></div>
+        <div display: grid></div>
+        <div row-gap: 50></div>
+    </div>
+
+    <div class="row">
+        <div display: grid></div>
+        <div row-gap: 50></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat"></div>
+
+    </div>
+
+    <div class="row">
+        <div display: grid></div>
+        <div row-gap: 50></div>
+        <div class="seat-occupied"></div>
+        <div class="seat"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat-selected"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat"></div>
+
+    </div>
+
+    <div class="row">
+        <div display: grid></div>
+        <div row-gap: 50></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat-selected"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+
+    <div class="row">
+        <div display: grid></div>
+        <div row-gap: 50></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat-occupied"></div>
+        <div class="seat"></div>
+        <div class="seat-selected"></div>
+    </div>
+
+    <div class="row">
+        <div display: grid></div>
+        <div row-gap: 50></div>
+        <div class="seat"></div>    
+        <div class="seat-occupied"></div>
+        <div class="seat-selected"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+</div>
+<p class="text">You selected <span id="count">0</span> seats for price $<span> id="total">0</span></p>
+
+<script src="script.js"></script>
+</body>
+</html>
