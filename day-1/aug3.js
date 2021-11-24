@@ -6,15 +6,20 @@
  * @param {?} value - value to fill
  * @returns {Array}
  */
- const data = 5;
+ const data = 9;
   const valueToFill = 'a';
  
  const fill = (arraySize, value) => {
-    const myArray = " ";
-    for (let i = 0; i <= arraySize; i++) {
-      myArray.push(value);
-      console.log(myArray);
+   
+    myArr = [];
+    for(let i=0; i<arraySize; i++){
+      myArr.push(value)
     }
+      
+  return myArr;
   } 
    // ['a', 'a', 'a']
-  fill(4, 'a');
+  console.log(fill(data, 'a'));
+
+  const newArr = myArr.map(e => `${data}${e}`);
+  console.log(newArr)

@@ -23,7 +23,7 @@ var library = [
               if(library[i].readingStatus) 
                         console.log("this book is already read by : " + library[i].author);
                  else
-                        console.log("you still need to read the book : " + library[i].author);                   
+                        console.log("you still need to read the book by : " + library[i].author);                   
 
                 }
         }

@@ -1,8 +1,9 @@
 var employee = {
-name : rasikhan,
+name : 'rasikhan',
  age  : 24,
-designation : softwareEngineer,
+designation : 'softwareEngineer'
 };
 
 employee.salary = "Rs20000";
 console.log(employee.salary);
+console.log(employee[employee.age]);
